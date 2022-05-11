@@ -1,0 +1,31 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.nav {
+  padding: 20px;
+  background-color: rgb(222, 230, 240);
+}
+.nav-link {
+  color: black;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: red;
+  /* background-color: aqua; */
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+#banner {
+  width: 100%;
+  height: auto;
+}
+
+.fifth-page-container {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.76) 24.09%, rgba(0, 0, 0, 0.5) 100%);
+  width: 100%;
+  height: auto;
+}
