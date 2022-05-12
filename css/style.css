@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #header {
   display: flex;
   flex-direction: row;
@@ -24,8 +29,57 @@
   height: auto;
 }
 
-.fifth-page-container {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.76) 24.09%, rgba(0, 0, 0, 0.5) 100%);
+.fourth-page-box{
+  margin: 0 !important;
+}
+
+.fourth-page-container  {
+ padding-bottom: 60px;
+}
+.fourthPage__mainDiv {
+  padding: 0 !important;
+  background-image:   linear-gradient(180deg, rgba(255, 255, 255, 0.76) 24.09%, rgba(0, 0, 0, 0.5) 100%),
+
+  url("../img/bg3rd-page.png");
+width: 100%;
+
+background-size: cover;
+color: white;
+padding: 20px;
+border-bottom: dotted;
+}
+.fourth-page-container-box{
+  border-radius: 50px 0px 50px 0px;
+}
+
+.fourth-page-main-div{
+  padding-top: 8px;
+}
+.fourthpage-img{
+  margin-top: 120px;
+}
+.fifth-page-main-div{
+  background-image:   linear-gradient(95.58deg, rgba(0, 0, 0, 0.7) 0%, rgba(157, 196, 60, 0.2) 100%),url("../img/Mask\ group.png");
+
+ 
   width: 100%;
-  height: auto;
+}
+
+.fifth-page-btn{
+  padding: 3px;
+  color: white;
+  background-color: red;
+}
+
+.feedback{
+  background-color: rgb(201, 203, 236);
+}
+.user{
+  border-radius: 100% ;
+}
+.feedback-heading{
+  text-align: center;
+}
+.box-radius{
+  border-radius: 70px 0px 70px 0px;
 }
