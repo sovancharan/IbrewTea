@@ -1,114 +1,146 @@
 * {
-  margin: 0;
-  padding: 0;
-  /* font-family: 'Chakra Petch', sans-serif; */
-/* font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Chakra Petch', sans-serif; */
+    /* font-family: 'Pacifico', cursive;
 font-family: 'Roboto Flex', sans-serif; */
-font-family: 'Cormorant';
+    font-family: 'Cormorant';
 }
 
 #header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .nav {
-  padding: 20px;
-  background-color: rgb(222, 230, 240);
+    padding: 20px;
+    background-color: rgb(222, 230, 240);
 }
 .nav-link {
-  color: black;
-  font-weight: 500;
+    color: black;
+    font-weight: bold;
 }
 .nav-link:hover {
-  color: red;
-  /* background-color: aqua; */
-  text-decoration: underline;
-  text-decoration-color: black;
+    color: red !important;
+    /* background-color: aqua; */
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 #banner {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
-.fourth-page-box{
-  margin: 0 !important;
+.fourth-page-box {
+    margin: 0 !important;
 }
 
-.fourth-page-container  {
- padding-bottom: 60px;
+.fourth-page-container {
+    padding-bottom: 60px;
 }
 .fourthPage__mainDiv {
-  padding: 0 !important;
-  background-image:   linear-gradient(180deg, rgba(255, 255, 255, 0.76) 24.09%, rgba(0, 0, 0, 0.5) 100%),
+    padding: 0 !important;
+    background-image: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.76) 24.09%,
+            rgba(0, 0, 0, 0.5) 100%
+        ),
+        url('../img/bg3rd-page.png');
+    width: 100%;
 
-  url("../img/bg3rd-page.png");
-width: 100%;
-
-background-size: cover;
-color: white;
-padding: 20px;
-border-bottom: 1px dashed black;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px dashed black;
 }
-.fourth-page-container-box{
-  border-radius: 50px 0px 50px 0px;
+.fourth-page-container-box {
+    border-radius: 50px 0px 50px 0px;
 }
-.fourth-page-heading-row{
-  margin-right: 0!important;
-}
-
-.fourth-page-main-div{
-  padding-top: 8px;
-}
-.fourthpage-img{
-  margin-top: 120px;
-}
-.fifth-page-main-div{
-  background-image:   linear-gradient(95.58deg, rgba(0, 0, 0, 0.7) 0%, rgba(157, 196, 60, 0.2) 100%),url("../img/Mask\ group.png");
-
- height: 70vh;
-  width: 100%;
+.fourth-page-heading-row {
+    margin-right: 0 !important;
 }
 
-.fifth-page-btn{
-  padding: 3px;
-  color: white;
-  background-color: red;
+::-webkit-scrollbar{
+    display: none;
 }
 
-.feedback{
-  background-color: rgb(201, 203, 236);
+.fourth-page-main-div {
+    padding-top: 8px;
 }
-.user{
-  border-radius: 100% ;
+.fourthpage-img {
+    margin-top: 120px;
 }
-.feedback-heading{
-  text-align: center;
-}
-.box-radius{
-  /* border-radius: 70px 0px 70px 0px; */
-  background: #d7dadd;
-box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2);
-border-radius: 100px 0px;
+.fifth-page-main-div {
+    background-image: linear-gradient(
+            95.58deg,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(157, 196, 60, 0.2) 100%
+        ),
+        url('../img/Mask\ group.png');
+
+    height: 70vh;
+    width: 100%;
 }
 
-.last-page-item{
-  margin-bottom: 0!important;
-}
-.last-page-item:hover{
-  cursor: pointer;
-  color: aqua;
+.fifth-page-btn {
+    padding: 3px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px 0 15px 0;
 }
 
-.featured-main-div{
-  background-color: #E3F4D9;
+.feedback {
+    background-color: rgb(201, 203, 236);
 }
-.News-latter{
-  background-image: url(../img/Mask\ Group2.png);
-  height: 30vh;
+.user {
+    border-radius: 100%;
 }
-.lastpage-main-div{
-  background: #003242;
+.feedback-heading {
+    text-align: center;
+}
+.box-radius {
+    /* border-radius: 70px 0px 70px 0px; */
+    background: #d7dadd;
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 100px 0px;
+}
+.certificate-main-div {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.certificate-2nd-div{
+    margin: 0 !important;
+}
+.last-page-item {
+    margin-bottom: 0 !important;
+}
+.last-page-item:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.featured-main-div {
+    background-color: #e3f4d9;
+    margin: 0!important;
+    padding: 0!important;
+}
+.News-latter {
+    background-image: url(../img/Mask\ Group2.png);
+    height: 30vh;
+}
+.newslatter-box {
+    border: none;
+    background-color: white;
+}
+#newslatter-btn {
+    background-color: #11689c;
+    color: white;
+    padding: 3px 8px;
+    margin: 2px;
+}
+.lastpage-main-div {
+    background: #003242;
 }
