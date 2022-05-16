@@ -1,17 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    /* padding-left: 0 !important; */
+    /* padding-right: 0 !important; */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     /* font-family: 'Chakra Petch', sans-serif; */
     /* font-family: 'Pacifico', cursive;
 font-family: 'Roboto Flex', sans-serif; */
     font-family: 'Cormorant';
 }
 
-#header {
+/* #header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
+} */
+
+.heder-item:hover{
+    cursor: pointer;
 }
 
 .nav {
@@ -28,6 +36,12 @@ font-family: 'Roboto Flex', sans-serif; */
     text-decoration: underline;
     text-decoration-color: black;
 }
+
+.navbar-main-div{
+    background: #F1F1F1;
+box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
 #banner {
     width: 100%;
     height: auto;
@@ -114,6 +128,10 @@ font-family: 'Roboto Flex', sans-serif; */
 .certificate-2nd-div{
     margin: 0 !important;
 }
+.certificates{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .last-page-item {
     margin-bottom: 0 !important;
 }
@@ -135,6 +153,10 @@ font-family: 'Roboto Flex', sans-serif; */
     border: none;
     background-color: white;
 }
+.email-section{
+    margin: 0 !important;
+    margin-left: 0!important
+}
 #newslatter-btn {
     background-color: #11689c;
     color: white;
@@ -144,3 +166,107 @@ font-family: 'Roboto Flex', sans-serif; */
 .lastpage-main-div {
     background: #003242;
 }
+
+.from-div{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+@media only screen and (max-width: 1000px) {
+   
+     
+    
+    .ibrew-header{
+        font-size: small;
+        background: rgb(153, 56, 56);
+    }
+    .header-main-div{
+        display:flex;
+        flex-direction: row-reverse;
+        font-size: 20px;
+    }
+    .nav-link {
+        font-size: 10px;
+        padding: 5px!important;
+        margin: 0!important;
+    }
+    .navbar {
+        padding-top: 0!important; ;
+    }
+    .navbar-toggler{
+        font-size: 10px;
+    }
+    .header-main-div{
+        margin-bottom: 10px;
+        padding: 0!important;
+    }
+    .header-banner-section{
+        width: 90%;
+        padding: 0 !important;
+        margin: 0 !important;
+        z-index: 2;
+    }
+    .navbar-main-div { 
+        /* display:none; */
+        position: absolute;
+        background-color:teal ;
+        right: 0;
+        left: -10px;
+        text-align: center;
+        
+        z-index:  1;
+       }
+ 
+  }
+
+  @media only screen and (max-width: 500px) {
+      .banner-img{
+          height: 40%;
+      }
+    .header-left-banner{
+     width: 100%;
+    }
+    .discount-para{
+        font-size: 15px;
+        padding: 5px;
+    }
+   
+    .nav-link {
+        font-size: 10px;
+        padding: 5px!important;
+        margin: 0!important;
+    }
+    .navbar {
+        padding-top: 0!important; ;
+    }
+    .navbar-toggler{
+        font-size: 10px;
+    }
+    .header-main-div{
+        margin-bottom: 10px;
+        padding: 0!important;
+    }
+    .heder-item{
+        margin: 0!important;
+    }
+    .header-banner-section{
+        width: 90%;
+        padding: 0 !important;
+        margin: 0 !important;
+        z-index: 2;
+    }
+    .navbar-main-div { 
+        /* display:none; */
+        position: absolute;
+        background-color:teal ;
+        right: 0;
+        left: -10px;
+        text-align: center;
+        
+        z-index:  1;
+       }
+       .News-latter{
+           display:flex;
+           flex-direction: column;
+       }
+  }

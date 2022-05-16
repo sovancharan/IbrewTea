@@ -61,18 +61,27 @@
         <title>Teashop</title>
     </head>
     <body>
-        <!-- header -->
 
-        <div class="container-fluid" id="">
-            <div class="" id="header">
-                <div class="" id="company-name">
-                    <img src="./img/header.png" alt="" />
+     <!-- discount -->
+     <div class="container-fluid bg-dark">
+         <p class="text-center text-light discount-para">use promo code (XXX) to avail 10% discount</p>
+     </div>
+
+        <!-- header -->
+     <div class="container-fluid header-main-div">
+
+     
+
+        <div class="container-fluid header-banner-section" >
+            <div class="  d-flex justify-content-around" id="header" >
+                <div class="">
+                    <img class="w-75 header-left-banner heder-item mt-2 ps-4" src="./img/header.png" alt="" />
                 </div>
                 <div id="right-side-icon">
                     <div>
-                        <img src="./img/search.png" alt="" />
-                        <img src="./img/user.png" alt="" />
-                        <img src="./img/shopping-trolley 1.png" alt="" />
+                        <img class="w-25 me-2 mt-2 discount-para heder-item" src="./img/search.png" alt="" />
+                        <img class="w-25 me-1 mt-2 discount-para heder-item" src="./img/user.png" alt="" />
+                        <img class="w-25 mt-2 discount-para heder-item" src="./img/shopping-trolley 1.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -80,7 +89,7 @@
 
         <!-- nav bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  m-2 navbar-main-div">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                 <button
@@ -95,11 +104,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    class="collapse navbar-collapse justify-content-center"
+                    class="collapse navbar-collapse justify-content-left"
                     id="navbarSupportedContent"
                 >
                     <ul
-                        class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100"
+                        class="align-items-start navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100"
                     >
                         <li class="nav-item">
                             <a
@@ -197,11 +206,12 @@
                 </div>
             </div>
         </nav>
+    </div>
 
         <!-- Second Page -->
 
-        <div id="banner" class="">
-            <img style="width: 100%" src="./img/banner.png" alt="" />
+        <div id="banner" class="w-100 banner-img">
+            <img class=" banner-img" style="width: 100%" src="./img/banner.png" alt="" />
         </div>
 
         <!-- Third page -->
@@ -209,19 +219,20 @@
         <div class="about container-fluid">
             <div class="row justify-content-around">
                 <div
-                    class="col-lg-5 col-md-7 col-sm-10 d-flex flex-lg-row mt-5"
+                    class="col-lg-3 col-md-7 col-sm-6  mt-5"
                 >
-                    <div>
+                    <div >
                         <img
-                            class=""
-                            id="tea-leaf"
+                            class="w-100"
+                           
                             src="./img/tealeaf.png"
                             alt=""
                         />
                     </div>
-                    <div>
+                </div>
+                    <div class="col-lg-3 col-md-5 col-sm-10 mt-5">
                         <img
-                            class="w-75 mb-4"
+                            class="w-100 mb-4"
                             src="./img/About Ibrew Tea.png"
                             alt=""
                         />
@@ -239,12 +250,12 @@
                             ></i>
                         </h5>
                     </div>
-                </div>
+                
 
                 <div class="col-lg-5 col-md-7 col-sm-10 mt-5">
                     <h4 class="mb-4">Info Chart</h4>
                     <div>
-                        <img class="w-75" src="./img/barchat.png" alt="" />
+                        <img class="w-75 mb-5" src="./img/barchat.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -387,7 +398,7 @@
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-8">
                     <div class="fourthpage-img">
-                        <img src="./img/tealeaf.png" alt="" />
+                        <img class="w-25" src="./img/tealeaf.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -876,11 +887,11 @@
         </div>
         <!-- Featured In -->
         <div class="container-fluid featured-main-div d-flex flex-row">
-            <div class="row container-fluid" style="width: 25vw;">
-                <div class="col">
+            <!-- <div class="row container-fluid" style="width: 25vw;">
+                <div class="col-sm-2">
                     <img src="./img/Group 28.png" alt="" />
                 </div>
-            </div>
+            </div> -->
             <div
                 class="owl-carousel owl-theme pt-5 featured-main-div"
                 style="width: 75vw; overflow-x:scroll ;
@@ -922,7 +933,7 @@
         <div class="certificate-main-div container-fluid">
             <div class="d-flex flex-row">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-10">
                         <img
                             class="w-75"
                             src="./img/concept-hot-drink-with-tea-white-background 1.png"
@@ -931,21 +942,21 @@
                     </div>
                 </div>
                 <div class="row align-content-center certificate-2nd-div">
-                    <div class="col-lg-3 col-sm-6 m-2">
+                    <div class="col-lg-3 col-sm-6 certificates">
                         <img
                             class="w-100 h-100"
                             src="./img/rainforest-alliance-certified-seal-lg-300x266-1 1.png"
                             alt=""
                         />
                     </div>
-                    <div class="col-lg-3 col-sm-6 m-2">
+                    <div class="col-lg-3 col-sm-6 certificates">
                         <img
                             class="w-100 h-100"
                             src="./img/Group 35.png"
                             alt=""
                         />
                     </div>
-                    <div class="col-lg-3 col-sm-6 m-2">
+                    <div class="col-lg-3 col-sm-6 certificates">
                         <img
                             class="w-100"
                             src="./img/download (1).png"
@@ -961,15 +972,15 @@
                 class="container d-flex flex-row justify-content-around align-content-center"
             >
                 <div class="row mt-5 pt-4">
-                    <div class="col">
+                    <div class="col-sm-10">
                         <h3 class="">Newslatter</h3>
                         <p class="text-center">
                             Receive our latest news straight to your inbox
                         </p>
                     </div>
                 </div>
-                <div class="row mt-5 pt-4">
-                    <div class="col">
+                <div class="row mt-5 pt-4 email-section">
+                    <div class="col-sm-10 from-div">
                         <form class="bg-white px-4 py-1" action="">
                             <input
                                 class="newslatter-box"
@@ -985,14 +996,15 @@
             </div>
         </div>
         <!-- last page -->
-        <div class="container-fluid pb-5 pt-5 lastpage-main-div">
+        <div class="container-fluid pb-5 pt-5 lastpage-main-div d-flex justify-content-center">
             <div class="container pt-2">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-8 text-white mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-3 col-sm-3 text-white mb-5 d-flex justify-content-center">
+                        <div>
                         <div>
                             <h5 class="mb-4">Quick Links</h5>
                         </div>
-                        <div>
+                        <div> 
                             <p class="last-page-item">Contact Us</p>
                             <p class="last-page-item">Terms & Condition</p>
                             <p class="last-page-item">Shipping Policy</p>
@@ -1004,7 +1016,9 @@
                             <p class="last-page-item">F.A.Q</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 cols-md-3 col-sm-8 text-white mb-5">
+                    </div>
+                    <div class="col-lg-3 cols-md-3 col-sm-3 text-white mb-5 d-flex justify-content-center">
+                        <div>
                         <div>
                             <h5 class="mb-4">Product Catagory</h5>
                         </div>
@@ -1016,7 +1030,9 @@
                             <p class="last-page-item">Product Catagory5</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-8 text-white mb-5">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-5 text-white mb-5 d-flex justify-content-center">
+                        <div>
                         <div>
                             <h5 class="mb-4">Imporant Link</h5>
                         </div>
@@ -1031,7 +1047,9 @@
                             <p class="last-page-item">Careers</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-8 text-white mb-5">
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-5 text-white mb-5 d-flex justify-content-center">
+                        <div>
                         <div>
                             <h5 class="mb-4">Important Link</h5>
                         </div>
@@ -1039,6 +1057,7 @@
                             <p class="last-page-item">Campaigns</p>
                             <p class="last-page-item">Awards</p>
                             <p class="last-page-item">Team</p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -1048,7 +1067,7 @@
                             <img src="./img/header.png" alt="" />
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-7 text-white">
+                    <div class="col-lg-5 col-md-5 col-sm-5 text-white">
                         <h4 class="text-end">
                             <span>Follow Us : </span>
                             <span class="last-page-item"
