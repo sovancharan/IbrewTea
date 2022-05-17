@@ -18,6 +18,15 @@ font-family: 'Roboto Flex', sans-serif; */
     padding: 10px;
 } */
 
+.whole-header-main-div{
+z-index: 5;
+/* padding-left: 0!important; */
+/* padding-right: 0!important; */
+}
+.carousel-section{
+    z-index: 2;
+}
+
 .heder-item:hover{
     cursor: pointer;
 }
@@ -121,6 +130,9 @@ box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2);
     border-radius: 100px 0px;
 }
+.featured-div{
+    width: 30vw;
+}
 .certificate-main-div {
     margin: 0 !important;
     padding: 0 !important;
@@ -154,8 +166,10 @@ box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
     background-color: white;
 }
 .email-section{
-    margin: 0 !important;
-    margin-left: 0!important
+    /* margin: 0 !important; */
+    margin-left: 0!important;
+    margin-right: 0!important;
+    
 }
 #newslatter-btn {
     background-color: #11689c;
@@ -170,6 +184,10 @@ box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
 .from-div{
     margin-left: 0!important;
     margin-right: 0!important;
+}
+.footer-p-div{
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -216,10 +234,10 @@ box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
         
         z-index:  1;
        }
- 
+    
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
       .banner-img{
           height: 40%;
       }
@@ -265,8 +283,20 @@ box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
         
         z-index:  1;
        }
-       .News-latter{
+       .newslatter-2nd-div{
            display:flex;
+           flex-direction: row;
+           /* background-color: #003242; */
+       }
+       .featured-main-div{
            flex-direction: column;
+         
+       }
+       .featured-div{
+           width: 50vw;
+           align-items: center;
+       }
+       .item{
+       font-size: 100px;
        }
   }

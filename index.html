@@ -63,7 +63,10 @@
     <body>
 
      <!-- discount -->
-     <div class="container-fluid bg-dark">
+     
+     <div class="position-fixed bg-white container-fluid g-0 whole-header-main-div">
+
+     <div class="container-fluid bg-dark g-0">
          <p class="text-center text-light discount-para">use promo code (XXX) to avail 10% discount</p>
      </div>
 
@@ -207,10 +210,10 @@
             </div>
         </nav>
     </div>
-
+     </div>
         <!-- Second Page -->
 
-        <div id="banner" class="w-100 banner-img">
+        <div id="banner" class="w-100 banner-img pt-5">
             <img class=" banner-img" style="width: 100%" src="./img/banner.png" alt="" />
         </div>
 
@@ -219,20 +222,20 @@
         <div class="about container-fluid">
             <div class="row justify-content-around">
                 <div
-                    class="col-lg-3 col-md-7 col-sm-6  mt-5"
+                    class="col-lg-1 col-md-3 col-sm-6  mt-5"
                 >
                     <div >
                         <img
-                            class="w-100"
+                            class=""
                            
                             src="./img/tealeaf.png"
                             alt=""
                         />
                     </div>
                 </div>
-                    <div class="col-lg-3 col-md-5 col-sm-10 mt-5">
+                    <div class="col-lg-4 col-md-3 col-sm-10 mt-5">
                         <img
-                            class="w-100 mb-4"
+                            class="w-75 mb-4"
                             src="./img/About Ibrew Tea.png"
                             alt=""
                         />
@@ -242,21 +245,27 @@
                             ad aut voluptas nesciunt maiores obcaecati natus
                             molestiae quis doloremque, veritatis
                         </p>
-                        <h5 style="text-decoration: underline red">
-                            <i> Discover More</i>
+                        <h5  >
+                            <span class="border-bottom border-danger pb-2" >
+                            <i class="pe-2" > Discover More</i>
+                            <span class="">
                             <i
-                                style="color: red"
+                                style="color: red;font-size: 15px;"
                                 class="fa-solid fa-arrow-right-long"
                             ></i>
+                            </span>
+                            </span>
                         </h5>
                     </div>
                 
 
-                <div class="col-lg-5 col-md-7 col-sm-10 mt-5">
+                <div class="col-lg-4 col-md-7 col-sm-10 mt-5 d-flex flex-row align-items-st">
+                    <div>
                     <h4 class="mb-4">Info Chart</h4>
                     <div>
-                        <img class="w-75 mb-5" src="./img/barchat.png" alt="" />
+                        <img class="w-100 mb-5" src="./img/barchat.png" alt="" />
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -267,7 +276,7 @@
             <div class="fourth-page-container">
                 <div class="row justify-content-center fourth-page-heading-row">
                     <div
-                        class="col d-flex justify-content-center mt-4"
+                        class="col d-flex justify-content-center mt-4 pt-5"
                         style="color: black"
                     >
                         SERVICES
@@ -368,18 +377,18 @@
             <div class="row h-100">
                 <div class="col-lg-4 col-md-5 col-sm-8">
                     <div style="display: flex; top: 50%">
-                        <img class="w-75" src="./img/pngwing 2.png" alt="" />
+                        <img class="w-100" src="./img/pngwing 2.png" alt="" />
                     </div>
                 </div>
                 <div
-                    class="col-lg-4 col-md-5 col-sm-8 container align-items-center pt-5"
+                    class="col-lg-4 col-md-5 col-sm-8 d-flex align-items-center pt-5"
                 >
                     <div class="container">
                         <h6 class="text-white">ORGANIC TEA</h6>
-                        <h4 class="text-white">
-                            <i style="border-bottom: 1px solid red">Our Most </i
+                        <h3 class="text-white pb-3">
+                            <i class="border-bottom border-danger pb-3">Our Most </i
                             ><i> Popular Teas</i>
-                        </h4>
+                        </h3>
                         <p class="mb-2 text-white">
                             Lorem, ipsum dolor sit amet consectetur adipisicing
                             elit. Temporibus quidem laboriosam pariatur quas
@@ -387,18 +396,20 @@
                             veniam quasi eveniet ipsa unde nobis nam mollitia
                             amet adipisci accusamus nihil sunt.
                         </p>
-                        <h5 style="text-decoration: underline red">
-                            <i class="text-white"> Discover More</i>
+                        <span >
+                        <h5 >
+                            <i class="text-white border-bottom border-danger pb-2 pe-2"> Discover More</i>
                             <i
-                                style="color: red"
+                                style="color: red; font-size: 15px;"
                                 class="fa-solid fa-arrow-right-long"
                             ></i>
                         </h5>
+                    </span> 
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-8">
                     <div class="fourthpage-img">
-                        <img class="w-25" src="./img/tealeaf.png" alt="" />
+                        <img class="w-75" src="./img/tealeaf.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -501,360 +512,217 @@
       </div>
     </div> -->
 
-        <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-        >
-            <div class="carousel-indicators">
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                ></button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                ></button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                ></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container-fluid pb-5 pt-5">
-                        <div class="row">
-                            <div
-                                class="col-lg-6 col-md-6 col-lg-7 align-items-center w-100"
-                            >
-                                <p
-                                    class="feedback-heading mb-0"
-                                    style="margin-bottom: 0 !important"
-                                >
-                                    TESTMONIALS
-                                </p>
-                                <h3 class="feedback-heading">
-                                    Our customets Are Saying
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-5 m-lg-2">
-                                <div style="position: absolute">
-                                    <img
-                                        class="w-75"
-                                        src="./img/pngwing 3.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div style="position: relative">
-                                    <img
-                                        class="w-100"
-                                        src="./img/pngwing 4.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div
-                                class="feedback box-radius col-lg-3 col-sm-5 m-2 p-3"
-                            >
-                                <div class="d-flex justify-content-center">
-                                    <img
-                                        class="user"
-                                        src="./img/People.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <h4 class="feedback-heading">Ram Pal</h4>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Error soluta
-                                        consequatur non labore vitae, libero
-                                        molestiae adipisci dignissimos eveniet
-                                        suscipit nisi nemo magni architecto.
-                                        Mollitia veritatis, placeat incidunt
-                                        illum expedita deleniti ratione.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="feedback col-lg-3 col-sm-5 m-2 p-3 box-radius"
-                            >
-                                <div class="d-flex justify-content-center">
-                                    <img
-                                        class="user"
-                                        src="./img/Telephone nowadays is quite an accessory.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <h4 class="feedback-heading">Ram Pal</h4>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Error soluta
-                                        consequatur non labore vitae, libero
-                                        molestiae adipisci dignissimos eveniet
-                                        suscipit nisi nemo magni architecto.
-                                        Mollitia veritatis, placeat incidunt
-                                        illum expedita deleniti ratione.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-sm-5">
-                                <img
-                                    class="w-100"
-                                    src="./img/pngwing 5.png"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid pb-5 pt-5">
-                        <div class="row">
-                            <div
-                                class="col-lg-6 col-md-6 col-lg-7 align-items-center w-100"
-                            >
-                                <p
-                                    class="feedback-heading mb-0"
-                                    style="margin-bottom: 0 !important"
-                                >
-                                    TESTMONIALS
-                                </p>
-                                <h3 class="feedback-heading">
-                                    Our customets Are Saying
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-5 m-lg-2">
-                                <div style="position: absolute">
-                                    <img
-                                        class="w-75"
-                                        src="./img/pngwing 3.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div style="position: relative">
-                                    <img
-                                        class="w-100"
-                                        src="./img/pngwing 4.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div
-                                class="feedback box-radius col-lg-3 col-sm-5 m-2 p-3"
-                            >
-                                <div class="d-flex justify-content-center">
-                                    <img
-                                        class="user"
-                                        src="./img/People.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <h4 class="feedback-heading">Ram Pal</h4>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Error soluta
-                                        consequatur non labore vitae, libero
-                                        molestiae adipisci dignissimos eveniet
-                                        suscipit nisi nemo magni architecto.
-                                        Mollitia veritatis, placeat incidunt
-                                        illum expedita deleniti ratione.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="feedback col-lg-3 col-sm-5 m-2 p-3 box-radius"
-                            >
-                                <div class="d-flex justify-content-center">
-                                    <img
-                                        class="user"
-                                        src="./img/Telephone nowadays is quite an accessory.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <h4 class="feedback-heading">Ram Pal</h4>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Error soluta
-                                        consequatur non labore vitae, libero
-                                        molestiae adipisci dignissimos eveniet
-                                        suscipit nisi nemo magni architecto.
-                                        Mollitia veritatis, placeat incidunt
-                                        illum expedita deleniti ratione.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-sm-5">
-                                <img
-                                    class="w-100"
-                                    src="./img/pngwing 5.png"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid pb-5 pt-5">
-                        <div class="row">
-                            <div
-                                class="col-lg-6 col-md-6 col-lg-7 align-items-center w-100"
-                            >
-                                <p
-                                    class="feedback-heading mb-0"
-                                    style="margin-bottom: 0 !important"
-                                >
-                                    TESTMONIALS
-                                </p>
-                                <h3 class="feedback-heading">
-                                    Our customets Are Saying
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-5 m-lg-2">
-                                <div style="position: absolute">
-                                    <img
-                                        class="w-75"
-                                        src="./img/pngwing 3.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div style="position: relative">
-                                    <img
-                                        class="w-100"
-                                        src="./img/pngwing 4.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
-                            <div
-                                class="feedback box-radius col-lg-3 col-sm-5 m-2 p-3"
-                            >
-                                <div class="d-flex justify-content-center">
-                                    <img
-                                        class="user"
-                                        src="./img/People.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <h4 class="feedback-heading">Ram Pal</h4>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Error soluta
-                                        consequatur non labore vitae, libero
-                                        molestiae adipisci dignissimos eveniet
-                                        suscipit nisi nemo magni architecto.
-                                        Mollitia veritatis, placeat incidunt
-                                        illum expedita deleniti ratione.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="feedback col-lg-3 col-sm-5 m-2 p-3 box-radius"
-                            >
-                                <div class="d-flex justify-content-center">
-                                    <img
-                                        class="user"
-                                        src="./img/Telephone nowadays is quite an accessory.png"
-                                        alt=""
-                                    />
-                                </div>
-                                <div>
-                                    <h4 class="feedback-heading">Ram Pal</h4>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit
-                                    </p>
-                                </div>
-                                <div>
-                                    <p class="feedback-heading">
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Error soluta
-                                        consequatur non labore vitae, libero
-                                        molestiae adipisci dignissimos eveniet
-                                        suscipit nisi nemo magni architecto.
-                                        Mollitia veritatis, placeat incidunt
-                                        illum expedita deleniti ratione.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-sm-5">
-                                <img
-                                    class="w-100"
-                                    src="./img/pngwing 5.png"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-            >
-                <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-            >
-                <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid pb-5 pt-5">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-lg-7 align-items-center w-100">
+                    <p class="feedback-heading mb-0" style="margin-bottom: 0 !important">
+                      TESTMONIALS
+                    </p>
+                    <h3 class="feedback-heading">Our customets Are Saying</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-5 m-lg-2">
+                    <div style="position: absolute">
+                      <img class="w-75" src="./img/pngwing 3.png" alt="" />
+                    </div>
+                    <div style="position: relative">
+                      <img class="w-100" src="./img/pngwing 4.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="feedback box-radius col-lg-3 col-sm-5 m-2 p-3">
+                    <div class="d-flex justify-content-center">
+                      <img class="user" src="./img/People.png" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="feedback-heading">Ram Pal</h4>
+                      <p class="feedback-heading">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div>
+                      <p class="feedback-heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        soluta consequatur non labore vitae, libero molestiae adipisci
+                        dignissimos eveniet suscipit nisi nemo magni architecto. Mollitia
+                        veritatis, placeat incidunt illum expedita deleniti ratione.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feedback col-lg-3 col-sm-5 m-2 p-3 box-radius">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="user"
+                        src="./img/Telephone nowadays is quite an accessory.png"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h4 class="feedback-heading">Ram Pal</h4>
+                      <p class="feedback-heading">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div>
+                      <p class="feedback-heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        soluta consequatur non labore vitae, libero molestiae adipisci
+                        dignissimos eveniet suscipit nisi nemo magni architecto. Mollitia
+                        veritatis, placeat incidunt illum expedita deleniti ratione.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-5">
+                    <img class="w-100" src="./img/pngwing 5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid pb-5 pt-5">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-lg-7 align-items-center w-100">
+                    <p class="feedback-heading mb-0" style="margin-bottom: 0 !important">
+                      TESTMONIALS
+                    </p>
+                    <h3 class="feedback-heading">Our customets Are Saying</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-5 m-lg-2">
+                    <div style="position: absolute">
+                      <img class="w-75" src="./img/pngwing 3.png" alt="" />
+                    </div>
+                    <div style="position: relative">
+                      <img class="w-100" src="./img/pngwing 4.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="feedback box-radius col-lg-3 col-sm-5 m-2 p-3">
+                    <div class="d-flex justify-content-center">
+                      <img class="user" src="./img/People.png" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="feedback-heading">Ram Pal</h4>
+                      <p class="feedback-heading">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div>
+                      <p class="feedback-heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        soluta consequatur non labore vitae, libero molestiae adipisci
+                        dignissimos eveniet suscipit nisi nemo magni architecto. Mollitia
+                        veritatis, placeat incidunt illum expedita deleniti ratione.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feedback col-lg-3 col-sm-5 m-2 p-3 box-radius">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="user"
+                        src="./img/Telephone nowadays is quite an accessory.png"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h4 class="feedback-heading">Ram Pal</h4>
+                      <p class="feedback-heading">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div>
+                      <p class="feedback-heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        soluta consequatur non labore vitae, libero molestiae adipisci
+                        dignissimos eveniet suscipit nisi nemo magni architecto. Mollitia
+                        veritatis, placeat incidunt illum expedita deleniti ratione.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-5">
+                    <img class="w-100" src="./img/pngwing 5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid pb-5 pt-5">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-lg-7 align-items-center w-100">
+                    <p class="feedback-heading mb-0" style="margin-bottom: 0 !important">
+                      TESTMONIALS
+                    </p>
+                    <h3 class="feedback-heading">Our customets Are Saying</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-5 m-lg-2">
+                    <div style="position: absolute">
+                      <img class="w-75" src="./img/pngwing 3.png" alt="" />
+                    </div>
+                    <div style="position: relative">
+                      <img class="w-100" src="./img/pngwing 4.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="feedback box-radius col-lg-3 col-sm-5 m-2 p-3">
+                    <div class="d-flex justify-content-center">
+                      <img class="user" src="./img/People.png" alt="" />
+                    </div>
+                    <div>
+                      <h4 class="feedback-heading">Ram Pal</h4>
+                      <p class="feedback-heading">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div>
+                      <p class="feedback-heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        soluta consequatur non labore vitae, libero molestiae adipisci
+                        dignissimos eveniet suscipit nisi nemo magni architecto. Mollitia
+                        veritatis, placeat incidunt illum expedita deleniti ratione.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="feedback col-lg-3 col-sm-5 m-2 p-3 box-radius">
+                    <div class="d-flex justify-content-center">
+                      <img
+                        class="user"
+                        src="./img/Telephone nowadays is quite an accessory.png"
+                        alt=""
+                      />
+                    </div>
+                    <div>
+                      <h4 class="feedback-heading">Ram Pal</h4>
+                      <p class="feedback-heading">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div>
+                      <p class="feedback-heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                        soluta consequatur non labore vitae, libero molestiae adipisci
+                        dignissimos eveniet suscipit nisi nemo magni architecto. Mollitia
+                        veritatis, placeat incidunt illum expedita deleniti ratione.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 col-sm-5">
+                    <img class="w-100" src="./img/pngwing 5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    
+
+
 
         <!-- Price contener -->
 
@@ -863,22 +731,22 @@
                 <h3 class="text-white text-center pt-5 pb-4">Best Sellers</h3>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-2 col-md-4 col-sm-6 m-1">
+                <div class="col-lg-2 col-md-4 col-sm-3 m-1">
                     <div>
                         <img class="w-100" src="./img/item1.png" alt="" />
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 m-1">
+                <div class="col-lg-2 col-md-4 col-sm-2 m-1">
                     <div>
                         <img class="w-100" src="./img/item2.png" alt="" />
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 m-1">
+                <div class="col-lg-2 col-md-4 col-sm-2 m-1">
                     <div>
                         <img class="w-100" src="./img/item1.png" alt="" />
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 m-1">
+                <div class="col-lg-2 col-md-4 col-sm-2 m-1">
                     <div>
                         <img class="w-100" src="./img/item2.png" alt="" />
                     </div>
@@ -886,43 +754,69 @@
             </div>
         </div>
         <!-- Featured In -->
-        <div class="container-fluid featured-main-div d-flex flex-row">
-            <!-- <div class="row container-fluid" style="width: 25vw;">
-                <div class="col-sm-2">
-                    <img src="./img/Group 28.png" alt="" />
+        <div class="container-fluid featured-main-div d-flex ">
+            <div class="row container-fluid g-0 featured-div" >
+                <div class="col " style="width: 10vw;">
+                    <img class="w-100"  src="./img/Group 28.png" alt="" />
                 </div>
-            </div> -->
+            </div>
             <div
                 class="owl-carousel owl-theme pt-5 featured-main-div"
-                style="width: 75vw; overflow-x:scroll ;
+                style=" overflow-x:scroll ;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;"
             >
                 <div class="item">
+                    <img class="item w-100" src="./img/et 1.png" alt="" />
+                </div>
+
+                <div class="item">
+                    <img class="item w-100" src="./img/10000 1.png" alt="" />
+                </div>
+
+                <div class="item">
+                    <img class="item w-100" src="./img/startup 1.png" alt="" />
+                </div>
+
+                <div class="item">
+                    <img class="item w-100" src="./img/10000 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item w-100" src="./img/et 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item w-100" src="./img/10000 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item w-100" src="./img/startup 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item w-100" src="./img/10000 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item w-100" src="./img/10000 1.png" alt="" />
+                </div>
+                  <div class="item w-100">
                     <img class="item" src="./img/et 1.png" alt="" />
                 </div>
-
                 <div class="item">
                     <img class="item" src="./img/10000 1.png" alt="" />
-                </div>
-
-                <div class="item">
-                    <img class="item" src="./img/startup 1.png" alt="" />
-                </div>
-
-                <div class="item">
-                    <img class="item" src="./img/10000 1.png" alt="" />
-                </div>
-                <div class="item">
-                    <img class="item" src="./img/et 1.png" alt="" />
                 </div>
                 <div class="item">
                     <img class="item" src="./img/10000 1.png" alt="" />
                 </div>
                 <div class="item">
-                    <img class="item" src="./img/startup 1.png" alt="" />
+                    <img class="item" src="./img/10000 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item" src="./img/10000 1.png" alt="" />
+                </div><div class="item">
+                    <img class="item" src="./img/10000 1.png" alt="" />
+                </div>
+                <div class="item">
+                    <img class="item" src="./img/10000 1.png" alt="" />
                 </div>
                 <div class="item">
                     <img class="item" src="./img/10000 1.png" alt="" />
@@ -942,7 +836,7 @@
                     </div>
                 </div>
                 <div class="row align-content-center certificate-2nd-div">
-                    <div class="col-lg-3 col-sm-6 certificates">
+                    <div class="col-lg-3 col-sm-6 certificates ">
                         <img
                             class="w-100 h-100"
                             src="./img/rainforest-alliance-certified-seal-lg-300x266-1 1.png"
@@ -969,10 +863,10 @@
         <!-- News Latter -->
         <div class="News-latter container-fluid">
             <div
-                class="container d-flex flex-row justify-content-around align-content-center"
+                class="container d-flex flex-row justify-content-around align-content-center newslatter-2nd-div"
             >
                 <div class="row mt-5 pt-4">
-                    <div class="col-sm-10">
+                    <div class="col">
                         <h3 class="">Newslatter</h3>
                         <p class="text-center">
                             Receive our latest news straight to your inbox
@@ -980,7 +874,7 @@
                     </div>
                 </div>
                 <div class="row mt-5 pt-4 email-section">
-                    <div class="col-sm-10 from-div">
+                    <div class="col from-div g-0">
                         <form class="bg-white px-4 py-1" action="">
                             <input
                                 class="newslatter-box"
@@ -1087,6 +981,10 @@
                 </div>
             </div>
         </div>
+        <footer class="container-fluid text-center bg-dark footer-main-div">
+            <p class=" text-light footer-p-div">Copyright © 2021 IBrew Tea. All Rights Reserved</p>
+
+        </footer>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -1116,7 +1014,7 @@
                         items: 1,
                     },
                     600: {
-                        items: 3,
+                        items: 2,
                     },
                     1000: {
                         items: 5,
