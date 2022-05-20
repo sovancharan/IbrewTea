@@ -21,6 +21,8 @@
     <!-- <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css"> -->
 
+    <link rel="stylesheet" href="coursel.css">
+
     <title>coursel</title>
 </head>
 <body>
@@ -89,6 +91,23 @@
         }
     }
  })
+
+ $('#feedbackslider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+})
      </script>
 </body>
 </html>
